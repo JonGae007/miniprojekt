@@ -1,0 +1,75 @@
+#top{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.meme{
+    width: 29%;
+}
+.meme2{
+    width: 20%;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    float: right;
+}
+  
+li {
+    display: inline;
+    margin: 15px;
+}
+.logo{
+    width: 5%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.name{
+    font-size: 50;
+    display: flex;
+    justify-content: center;
+}
+#menu{
+    background:rgba(58, 58, 58, 0.5);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    
+    color:black;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.ee{
+    padding-top: 300px;
+    font-size:50px; 
+    text-align: center;
+    animation: colorChange 5s infinite;
+    text-align: center;
+}
+.eealternateive{
+    font-size:50px; 
+    display: flex;
+    justify-content: center;
+}
+@keyframes colorChange {
+    0% { color: red; }
+      14% { color: orange; }
+      28% { color: yellow; }
+      42% { color: lime; }
+      57% { color: blue; }
+      71% { color: indigo; }
+      85% { color: violet; }
+      100% { color: red; }
+}
