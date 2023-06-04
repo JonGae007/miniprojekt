@@ -2,49 +2,70 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
-.meme{
-    width: 29%;
-}
-.meme2{
-    width: 20%;
-}
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin: 0;
     padding: 0;
-    word-wrap:break-word;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-nav {
-    float: right;
+    color: #272727;
 }
   
-li {
-    display: inline;
-    margin: 15px;
+nav{
+    width: 100%;
+    height: 85px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.11);
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    font-size: 24px;
+    padding: 28px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #ebebeb;
+
+}
+nav ul li ul{
+    display: block;
+    position: absolute;
+    background-color: #338585;
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+    display: none;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li a{
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+nav ul li ul li a:hover{
+    background-color: #296b6b;
 }
 .logo{
-    width: 5%;
+    width: 3%;
     padding-left: 5px;
     padding-top: 5px;
 }
 .name{
     font-size: 50;
-    display: flex;
-    justify-content: center;
+    display:inline;
 }
-#menu{
-    background:rgb(0, 0, 0);
-    color: aliceblue;
-}
+
 body{
     margin: 0;
     padding: 0;
+    background: radial-gradient(white, rgb(236,236,236));
 }
 a{
     
@@ -74,16 +95,12 @@ a{
       85% { color: violet; }
       100% { color: red; }
 }
-#minecraft{
-    padding-right: 30;
-    padding-left: 30;
-    text-align: justify;
-}
 .notch{
     float: right;
     width: 20%;
     padding-left: 30;
 }
-.navigation{
-    color: aliceblue;
+.link{
+    color: rgb(75, 118, 182);
+    text-decoration:underline;
 }
