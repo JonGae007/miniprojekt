@@ -6,12 +6,15 @@
         <script>
       function isKeyPressed(event) {
         if (event.keyCode == 187) {
-          window.location.assign('index.html');
+          window.location.assign('easter egg.html');
         }
       }
       </script>
     </head>
     <body>
+        <script>
+      document.addEventListener('keydown', isKeyPressed);
+    </script>
         <nav>
             <img class="logo" src="logo.png" alt="logo">
             <a class="name" herf="index.html">Gamepedia</a>
