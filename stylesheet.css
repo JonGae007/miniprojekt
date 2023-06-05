@@ -104,3 +104,16 @@ a{
     color: rgb(75, 118, 182);
     text-decoration:underline;
 }
+h1{
+    text-align: center;
+    font-size: 40;
+}
+.mitte{
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+}
+.minecraft{
+    text-align: center;
+    justify-content: center;
+}
